@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Network and Web Security</title>
+
+	<style type="text/css">
+		body {
+			background-color: #F2C77D;
+			margin: 0;
+			padding: 0;
+			font-family: "Raleway-Regular";
+		}
+		h1, h2 {
+			text-transform: uppercase;
+		}
+		@font-face {
+			font-family: "Raleway-Regular";
+			src: url("fonts/Raleway-Regular.ttf");
+		}
+		::selection {
+			background-color: #E5CBA0;
+		}
+		#top {
+			padding: 0;
+			width: 100%;
+			height: 50px;
+			background-color: #604D2D;
+			color: #FFFFFF;
+			position: fixed;
+			top: 0;
+			z-index: 1;
+		}
+		#top h1 {
+			margin: 0;
+			padding-top: 5px;
+			text-align: center;
+		}
+		.fixedWidth {
+			width: 800px;
+			height: 1716px;
+			background-color: #FFFFFF;
+			margin: 0 auto;
+			position: relative;
+			top: -20px;
+			border-width: 0 2px 2px 2px;
+			border-style: none solid solid solid;
+			border-color: transparent #604D2D #604D2D #604D2D;
+		}
+		#content {
+			color: #604D2D;
+			
+		}
+		#content h2 {
+			padding: 15px 0 15px 15px;
+			display: block;
+			background-color: #E5CBA0;
+		}
+		#content ol, #content ul {
+			padding-bottom: 20px;
+		}
+		.sub {
+			text-decoration: underline;
+		}
+		.second li {
+			padding-bottom: 10px;
+		}
+		#footer {
+			width: 100%;
+			height: 25px;
+			border-top: 2px dotted #604D2D;
+			margin: 0;
+			padding: 5px 0 5px 0;
+			background-color: ;
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+<div id="container">
+	<div id="top">
+		<h1>CSA223: Network and Web Security</h1>
+	</div>
+
+	<div class="fixedWidth">
+
+		<div id="content">
+			<br />
+			<br />
+			<h2>Short Answer:</h2>
+			<ol>
+				<li>List any 4 classifications of Trojan Horse?
+					<ol>
+						<li class="sub">Remote-access Trojan Horse</li>
+						<li class="sub">Data-sending Trojan Horse</li>
+						<li class="sub">Destructive Trojan Horse</li>
+						<li class="sub">Proxy Trojan Horse</li>
+						<li class="sub">FTP Trojan Horse</li>
+						<li class="sub">Security software disabler Trojan Horse</li>
+						<li class="sub">DoS Trojan</li>
+					</ol>
+				</li>
+				<li>List any 4 modern hacking titles?
+					<ul>
+						<li class="sub">Script Kiddies</li>
+						<li class="sub">Vulnerbility Broker</li>
+						<li class="sub">Hacktivists</li>
+						<li class="sub">Cyber Criminals</li>
+						<li class="sub">State- Sponsored</li>
+					</ul>
+				</li>
+				<li>List any 4 Inside Perimeter Security features?
+					<ol>
+						<li class="sub">Electronic Motion Detectors</li>
+						<li class="sub">Security Traps</li>
+						<li class="sub">Continuous Video Surveillance</li>
+						<li class="sub">Biometric Access and Exit</li>
+					</ol>
+				</li>
+				<li>SNMP consists of 3 elements relevant to the NMS, list any 2?
+					<ul>
+						<li class="sub"><strong>SNMP</strong> manager</li>
+						<li class="sub"><strong>SNMP</strong> agents (<em>managed code</em>)</li>
+						<li class="sub">Managment Information Base (MIB)</li>
+					</ul>
+				</li>
+				<li>List any 4 steps to configure router for server side SCP with local AAA?
+				<ol>
+					<li class="sub">Configure SSH</li>
+					<li class="sub">Configure at least one user with privilege level 15</li>
+					<li class="sub">Enable AAA</li>
+					<li class="sub">Specify that the local database is to be used for authentication</li>
+					<li class="sub">Configure command authorization</li>
+					<li class="sub">Enable SCP server-side functionality</li>
+				</ol>
+				</li>
+				<li>List any 4 tasks to secure Administrative Access?
+				<ol>
+					<li class="sub">Restrict device accessbility</li>
+					<li class="sub">Log and account for all access</li>
+					<li class="sub">Authenticate access</li>
+					<li class="sub">Authorize actions</li>
+					<li class="sub">Present legal notification</li>
+					<li class="sub">Ensure the confidentially of data</li>
+				</ol>
+				</li>
+			</ol>
+
+			<br />
+
+			<h2>Full Form:</h2>
+
+			<ul class="second">
+				<li>SIO: <em>Security Intelligence Operations</em></li>
+				<li>DoS: <em>Denial of Service</em></li>
+				<li>LLDP: <em>Link Layer Discovery Protocol</em></li>
+				<li>DLP: <em>Data Loss Prevention</em></li>
+				<li>UDP: <em>User Datagram Protocol</em></li>
+				<li>BYOD: <em>Bring Your Own Device</em></li>
+				<li>SNMP: <em>Simple Network Management Protocol</em></li>
+				<li>NTP: <em>Network Time Protocol</em></li>
+			</ul>
+
+			<br />
+
+			<h2>Define:</h2>
+
+			<ul class="second">
+				<li>Login Block-For: Defend against DoS attacks by disabling logins after a specified number of failed login attempts</li>
+				<li>Access Control List: Passwords are the first line of defense, stolen or weak one can provide the attacker easy access to corporate data</li>
+				<li>Quarantine: Tracking down and identifying infected machines within the contained areas</li>
+				<li>Inoculation: All uninfected systems are patched with the appropriate vendor patch</li>
+			</ul>
+
+			<!-- END of CONTENT -->
+		</div>
+
+
+		<div id="footer">
+			All Rights Reserved &copy; Study well Motherfucker
+		</div>
+
+		<!-- END of FIXEDWIDTH section -->
+	</div>
+</div>
+</body>
+
+</html>
